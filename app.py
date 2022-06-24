@@ -6,5 +6,5 @@ if __name__ == '__main__':
     _port = int(os.environ.get('PORT', 5000))
     proxy.main(
         hostname=ipaddress.IPv4Address('0.0.0.0'),
-        ports = _port
+        port = _port
     )
